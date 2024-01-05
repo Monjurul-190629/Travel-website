@@ -87,7 +87,6 @@ ul li a:hover{
     padding: 60px 20px;
     background: black;
     color: white;
-    position: absolute;
 }
 #box .one {
     width:20%;
@@ -136,7 +135,19 @@ ul li a:hover{
     transition: .5s;
 }
 #ta{
-    background: white;
-    color: black;
-    width: 100px;
+    display: flex;
+    justify-content: center;
+    background: #777;
+    color: darkred;
+    padding: 60px 10px;
+}
+#ta table{
+    border-collapse: collapse;
+}
+#ta table, th, td{
+    border : 2px solid yellow;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+
 }
